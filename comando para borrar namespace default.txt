@@ -1,0 +1,6 @@
+microk8s kubectl delete configmap microserviciocxas -n default
+microk8s kubectl delete service  microserviciocxas-svc -n default
+microk8s kubectl delete deployment  microserviciocxas -n default
+microk8s kubectl delete secret  microserviciocxas -n default
+microk8s kubectl delete configmap  microserviciocxas-config -n default
+microk8s kubectl delete hpa microserviciocxas  -n default
